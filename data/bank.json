@@ -1,0 +1,15 @@
+{
+  "simulator_bank": {
+    "version": "1.0",
+    "evaluation_model": {
+      "weights": { "decision": 30, "detection": 30, "justification": 20, "questioning": 10, "professionalism": 10 },
+      "global_penalties": { "hint": -5, "inactivity_timeout": -2, "critical_error": -15 }
+    },
+    "concept_dictionaries": {
+      "practice_1": { "mandatory": {}, "critical_patterns": [] },
+      "practice_2": { "mandatory": {}, "critical_patterns": [] }
+    },
+    "practice_1_cases": [],
+    "practice_2_cases": []
+  }
+}
