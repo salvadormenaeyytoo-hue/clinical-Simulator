@@ -1,0 +1,17 @@
+pharma-sim/
+  package.json
+  next.config.js
+  tsconfig.json
+  app/
+    layout.tsx
+    globals.css
+    page.tsx
+    practica-1/page.tsx
+    practica-2/page.tsx
+  components/
+    Simulator.tsx
+  lib/
+    scoring.ts
+    utils.ts
+  data/
+    bank.json
