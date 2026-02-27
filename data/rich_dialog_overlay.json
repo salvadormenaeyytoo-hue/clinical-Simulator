@@ -1,0 +1,247 @@
+{
+  "rich_dialog_overlay_version": "1.0",
+  "cases": [
+    {
+      "case_id": "P1-01",
+      "dialog": {
+        "patient_style": {
+          "age": 34,
+          "tone": "colloquial",
+          "attitude": ["practic", "impacient"]
+        },
+        "opening_variants": [
+          "Hola! Vinc a buscar això que em va fer el metge privat.",
+          "Bon dia… em van fer aquesta recepta i necessito el medicament.",
+          "Ei, això és el que m’ha posat el metge."
+        ],
+        "answers": {
+          "demanar_recepta": [
+            "Sí, aquí la tens.",
+            "Espera que la trec de la cartera.",
+            "Sí, és aquesta."
+          ],
+          "data_emissio": [
+            "Diria que fa unes dues setmanes.",
+            "No és d’ahir… fa uns dies.",
+            "Potser fa 10 o 12 dies."
+          ],
+          "identificacio": [
+            "Sí, cap problema. Aquí tens el DNI.",
+            "Tinc el DNI al mòbil.",
+            "Avui no el porto a sobre…"
+          ],
+          "posologia": [
+            "Em va dir una cada 8 hores.",
+            "Ho posa aquí escrit.",
+            "La pauta habitual."
+          ],
+          "alergies": [
+            "No.",
+            "Cap al·lèrgia.",
+            "Que jo sàpiga, no."
+          ],
+          "altres_meds": [
+            "Només ibuprofèn de tant en tant.",
+            "Res important.",
+            "Vitamines."
+          ]
+        },
+        "pressure_60s": [
+          "Hi ha algun problema?",
+          "Estic esperant… me’l pots donar?",
+          "És que vaig amb pressa."
+        ],
+        "hint_copy": "Revisa la vigència temporal de la recepta privada abans de dispensar."
+      }
+    },
+    {
+      "case_id": "P1-04",
+      "dialog": {
+        "patient_style": {
+          "age": 36,
+          "tone": "preocupada",
+          "attitude": ["protectora"]
+        },
+        "opening_variants": [
+          "És per la meva filla… però la pauta em sembla molt forta.",
+          "Bon dia. Em preocupa la dosi que han posat.",
+          "No sé si això és correcte per una nena."
+        ],
+        "answers": {
+          "demanar_recepta": [
+            "Sí, és aquesta.",
+            "Aquí la tens.",
+            "Sí, recepta del pediatre."
+          ],
+          "data_emissio": [
+            "D’ahir.",
+            "Fa dos dies.",
+            "Aquesta setmana."
+          ],
+          "identificacio": [
+            "Aquí tens la seva targeta i el meu DNI.",
+            "Sí, porto tot.",
+            "Sí."
+          ],
+          "posologia": [
+            "Posa cada 2 hores… això és normal?",
+            "No entenc aquesta pauta.",
+            "Em sembla massa sovint."
+          ],
+          "alergies": [
+            "No.",
+            "Cap.",
+            "No que jo sàpiga."
+          ],
+          "altres_meds": [
+            "Només paracetamol.",
+            "Res més.",
+            "Xarop de tant en tant."
+          ]
+        },
+        "pressure_60s": [
+          "Em pots aclarir si això és correcte?",
+          "No vull equivocar-me.",
+          "Sisplau, m’ho pots mirar?"
+        ],
+        "hint_copy": "Si la pauta és potencialment perillosa, cal verificar amb el prescriptor abans de dispensar."
+      }
+    },
+    {
+      "case_id": "P2-01",
+      "dialog": {
+        "patient_style": {
+          "age": 58,
+          "tone": "nerviosa",
+          "attitude": ["pressio_emocional"]
+        },
+        "opening_variants": [
+          "És urgent, és pel meu marit operat.",
+          "Necessito això avui sí o sí.",
+          "Sisplau, és molt important."
+        ],
+        "answers": {
+          "demanar_recepta": [
+            "Sí, aquí la tens.",
+            "És aquesta recepta oficial.",
+            "Sí."
+          ],
+          "data_emissio": [
+            "D’avui.",
+            "D’ahir.",
+            "Molt recent."
+          ],
+          "identificacio": [
+            "Jo tinc el meu DNI.",
+            "No porto el del meu marit.",
+            "Tinc una foto al mòbil."
+          ],
+          "posologia": [
+            "No recordo exactament.",
+            "Crec que és quan té dolor.",
+            "No ho sé gaire."
+          ],
+          "alergies": [
+            "No ho sé.",
+            "Que jo sàpiga no.",
+            "No."
+          ],
+          "altres_meds": [
+            "En pren bastants.",
+            "Tractament postoperatori.",
+            "No ho sé exactament."
+          ],
+          "qui_recull": [
+            "Ho recullo jo.",
+            "Sóc la seva dona.",
+            "Ell no pot venir."
+          ],
+          "registre": [
+            "No ho sé.",
+            "Això s’ha d’anotar?",
+            "No en tinc ni idea."
+          ],
+          "risc": [
+            "Està amb molt dolor.",
+            "No pot dormir.",
+            "Em preocupa molt."
+          ]
+        },
+        "pressure_60s": [
+          "Si no m’ho dónes, aquesta nit ho passarà fatal.",
+          "És molt urgent.",
+          "Em pots ajudar?"
+        ],
+        "hint_copy": "En estupefaents: verificar identificació de qui retira i registre obligatori."
+      }
+    },
+    {
+      "case_id": "P2-03",
+      "dialog": {
+        "patient_style": {
+          "age": 22,
+          "tone": "colloquial",
+          "attitude": ["preocupada"]
+        },
+        "opening_variants": [
+          "És per l’acne… m’han dit que això és fort.",
+          "Bon dia. Isotretinoïna, sisplau.",
+          "Em preocupa una mica aquest medicament."
+        ],
+        "answers": {
+          "demanar_recepta": [
+            "Sí, aquí la tens.",
+            "És aquesta.",
+            "Sí."
+          ],
+          "data_emissio": [
+            "Fa pocs dies.",
+            "Aquesta setmana.",
+            "Ahir."
+          ],
+          "identificacio": [
+            "Sí.",
+            "DNI aquí.",
+            "Sí."
+          ],
+          "posologia": [
+            "Una càpsula al dia.",
+            "Ho posa aquí.",
+            "Crec que una al dia."
+          ],
+          "alergies": [
+            "No.",
+            "Cap.",
+            "No."
+          ],
+          "altres_meds": [
+            "Anticonceptius.",
+            "Cremes.",
+            "Res."
+          ],
+          "qui_recull": [
+            "Jo mateixa.",
+            "Jo.",
+            "-"
+          ],
+          "registre": [
+            "-",
+            "-",
+            "-"
+          ],
+          "risc": [
+            "Em van dir que no em quedés embarassada.",
+            "No sé si cal analítica.",
+            "Em fa respecte."
+          ]
+        },
+        "pressure_60s": [
+          "Me’l pots donar avui?",
+          "No em facis tornar un altre dia.",
+          "El dermatòleg m’ho ha receptat."
+        ],
+        "hint_copy": "Teratogenicitat: verificar requisits de seguretat abans de dispensar."
+      }
+    }
+  ]
+}
